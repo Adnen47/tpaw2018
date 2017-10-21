@@ -1,0 +1,17 @@
+body{
+	background-color: grey;
+}
+table {
+	width:100%;
+	border-radius:10px;
+	background: white;
+}
+td{
+	text-align:left;
+} 
+.introduction{
+	color:blue;
+}
+img {
+	height: 50px;
+}
