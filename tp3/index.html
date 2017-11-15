@@ -1,33 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TP3</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
-        <style>
-          body{
-              background-color: #e9ebee;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-              font-size: 16px;
-              margin: 0 auto;
-              max-width: 800px;              
-          }
-        </style>
-        
-        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="main.js"></script>-->
-    </head>
-    <body>        
-        <h1>tp3</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
-    </body>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&language=fr"></script>
+		
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="/resources/demos/style.css">
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		
+		<script type="text/javascript" src="localisation.js"></script>
+		<script type="text/javascript" src="form-jquery-validation.js"></script>
+		<title> Formulaire </title>
+	</head>
+	<body>
+	<div class="container">
+		<h1> <left> <b> TP4 AW - Formulaire v2 </b> </left> </h1>
+		<br/><br/>
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label for="nom" class="col-sm-2 control-label"> Nom </label>
+				<div class="col-sm-5">
+					<input type="text" class="form-control" id="nom" placeholder="Votre nom">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="prenom" class="col-sm-2 control-label"> Prénom </label>
+				<div class="col-sm-5">
+					<input type="text" class="form-control" id="prenom" placeholder="Votre prénom">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="date_naissance" class="col-sm-2 control-label"> Date de naissance </label>
+				<div class="col-sm-5">
+					
+					
+					<input type="date" class="form-control" id="date_naissance" placeholder="JJ/MM/AAAA">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="adress" class="col-sm-2 control-label"> Adresse </label>
+				<div class="col-sm-5">
+					<input type="text" class="form-control" id="address" placeholder="Votre adresse">
+					<input button type="button" value="Localiser l'adresse sur Google Map" onclick="TrouverAdresse();"/>
+				</div>
+			</div>
+			<div class="form-group" align="center">
+			<div id="map-canvas"style="float:center;height:220px;width:45%"></div>
+			</div>
+			<div class="form-group">
+				<label for="email" class="col-sm-2 control-label"> Email </label>
+				<div class="col-sm-5">
+					<input type="text" class="form-control" id="email" placeholder="abc@example.com">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<div class="checkbox">
+						<label><input type="checkbox"> Remember me	</label>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="button" class="btn btn-default" id="submitform"> Valider </button>
+				</div>
+			</div>
+			<div class="error"></div>
+			<div class="modal fade" tabindex="-1" role="dialog">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title"> Titre modal </h4>
+				  </div>
+				  <div class="modal-body">
+					<p>Veuillez remplir tous les champs SVP&hellip;</p>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+		</form>
+		</div>
+	</body>
 </html>
