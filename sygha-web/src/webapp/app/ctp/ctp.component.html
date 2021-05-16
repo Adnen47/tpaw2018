@@ -1,0 +1,74 @@
+<h1>CTP</h1>
+<div #TABLE #table>
+    <button class="pull-right btn-icon btn-icon-only btn btn-success" (click)="ExportTOExcelBack()">
+      <fa name="file-excel-o"></fa> Export
+    </button>
+    <button class="pull-right mr-2 btn-icon btn-icon-only btn btn-primary" (click)="afficherDetailAdd()">
+      <i class="pe-7s-plus btn-icon-wrapper"> </i>
+    </button>
+    <ngx-spinner
+            bdColor = "rgba(0, 0, 0, 0.8)"
+            size = "medium" color = "#fff"
+            type = "square-jelly-box" [fullScreen] = "true">
+      <p style="color: white" > Loading... </p>
+    </ngx-spinner>
+
+  <div class="row">
+    <div class="col-md-12 mx-auto">
+      <div class="md-form">
+        <input
+                type="text"
+                [(ngModel)]="searchText"
+                class="form-control"
+                id="search"
+                mdbInput
+        />
+        <label for="search">Recherche</label>
+      </div>
+    </div>
+  </div>
+
+<form>
+  <table mdbTable #tableEl="mdbTable" class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col" sortable="name"[mdbTableSort]="ctpList" sortBy="code">Code CTP <i class="fa fa-fw fa-sort"></i></th>
+      <th scope="col" sortable="area" [mdbTableSort]="ctpList" sortBy="label">Libellé CTP <i class="fa fa-fw fa-sort"></i></th>
+      <th scope="col" sortable="area" [mdbTableSort]="ctpList" sortBy="rate">Taux <i class="fa fa-fw fa-sort"></i></th>
+      <th scope="col" sortable="area" [mdbTableSort]="ctpList" sortBy="referentielAudit.updateDate">Date dernière modification <i class="fa fa-fw fa-sort"></i></th>
+      <th scope="col" sortable="area">Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let ctp of ctpList | slice: (page-1) * pageSize : page * pageSize;">
+      <th scope="row" >{{ ctp.code }}</th>
+      <td>
+        <ngb-highlight [result]="ctp.label" [term]=""></ngb-highlight>
+      </td>
+      <td>
+        <ngb-highlight [result]="ctp.rate" [term]=""></ngb-highlight>
+      </td>
+      <td>
+        <ngb-highlight [result]="ctp?.referentielAudit?.updateDate | date : 'short' " [term]=""></ngb-highlight>
+
+      </td>
+      <td>
+        <button class="mr-2 btn-icon btn-icon-only btn btn-danger btn-sm" (click)="deleteCtp(ctp)">
+          <i class="pe-7s-trash btn-icon-wrapper"> </i></button>
+        <button class="btn-icon btn-icon-only btn btn-success btn-sm" (click)="afficherDetailCtp(ctp)">
+          <i class="pe-7s-pen btn-icon-wrapper"> </i></button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <ngb-pagination [collectionSize]="ctpList.length" [(page)]="page" [maxSize]="5" [boundaryLinks]="true"
+                  [pageSize]="pageSize" class="d-flex justify-content-center"></ngb-pagination>
+</form>
+</div>
+<div class="overlay" *ngIf="afficherDetail">
+  <div class="overfay-content overfay-content-md">
+    <app-ctp-detail [ctpDetail]="ctpSelected" (retourEmitter)="fermerDetail()" (retourAndRefreshEmitter)="refreshdata()"></app-ctp-detail>
+  </div>
+</div>
+
+
