@@ -1,0 +1,83 @@
+<!--<div class="example-container mat-elevation-z8">
+  <div class="example-loading-shade"
+       *ngIf="isLoadingResults">
+    <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+  </div>
+  <mat-card class="example-card">
+    <form [formGroup]="registerForm" (ngSubmit)="onFormSubmit(registerForm.value)">
+      <mat-form-field class="example-full-width">
+        <input matInput type="fullName" placeholder="Full Name" formControlName="fullName"
+               [errorStateMatcher]="matcher">
+        <mat-error>
+          <span *ngIf="!registerForm.get('fullName').valid && registerForm.get('fullName').touched">Please enter your Full Name</span>
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput type="email" placeholder="Email" formControlName="email"
+               [errorStateMatcher]="matcher">
+        <mat-error>
+          <span *ngIf="!registerForm.get('email').valid && registerForm.get('email').touched">Please enter your email</span>
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput type="password" placeholder="Password" formControlName="password"
+               [errorStateMatcher]="matcher">
+        <mat-error>
+          <span *ngIf="!registerForm.get('password').valid && registerForm.get('password').touched">Please enter your password</span>
+        </mat-error>
+      </mat-form-field>
+      <div class="button-row">
+        <button type="submit" [disabled]="!registerForm.valid" mat-flat-button color="primary">Register</button>
+      </div>
+    </form>
+  </mat-card>
+</div>-->
+
+<div class="h-100 bg-premium-dark">
+  <div class="d-flex h-100 justify-content-center align-items-center">
+    <div class="mx-auto app-login-box col-md-8">
+      <div class="mx-auto mb-3"></div>
+      <div class="modal-dialog w-100">
+        <div class="modal-content">
+          <form [formGroup]="registerForm" (ngSubmit)="onFormSubmit(registerForm.value)">
+          <div class="modal-body">
+            <h5 class="modal-title">
+              <h4 class="mt-2">
+                <div>Bonjour,</div>
+                <span>Veuillez créer <span class="text-success">votre compte</span></span></h4>
+            </h5>
+            <div class="divider"></div>
+            <div id="exampleInputGroup1" role="group" aria-describedby="exampleInputGroup1__BV_description_"
+                 class="form-group">
+              <div><input id="exampleInput1" type="email" placeholder="Enter email..." required="required"
+                          aria-required="true" class="form-control"
+                          aria-describedby="exampleInputGroup1__BV_description_"
+                          formControlName="email">
+
+              </div>
+            </div>
+            <div id="exampleInputGroup12" role="group" class="form-group">
+              <div><input id="exampleInput12" type="text" placeholder="Enter username..." required="required"
+                          aria-required="true" class="form-control" formControlName="fullname"></div>
+            </div>
+              <div id="exampleInputGroup2" role="group" class="form-group">
+                  <div><input id="exampleInput2" type="password" placeholder="Enter password..." required="required"
+                              aria-required="true" class="form-control" formControlName="password"></div>
+              </div>
+
+          <div class="modal-footer d-block text-center">
+            <button  type="submit" [disabled]="!registerForm.valid"
+                     class="btn btn-wide btn-pill btn-shadow btn-hover-shine btn-secondary btn-lg">S'inscrire
+            </button>
+          </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="text-center text-white opacity-8 mt-3">
+        Copyright © Advyteam 2019
+      </div>
+    </div>
+  </div>
+</div>
+
