@@ -1,0 +1,7 @@
+com\advyteam\sygha\service\CompanyService.class
+com\advyteam\sygha\service\EstablishmentService.class
+com\advyteam\sygha\service\ExtractionService.class
+com\advyteam\sygha\service\InseeService.class
+com\advyteam\sygha\service\CtpDsnService.class
+com\advyteam\sygha\service\SyghaUserDetailsService.class
+com\advyteam\sygha\service\BatchDSNService.class
