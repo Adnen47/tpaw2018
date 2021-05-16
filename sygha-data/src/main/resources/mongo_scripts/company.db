@@ -1,0 +1,181 @@
+db.COMPANY.drop();
+db.COMPANY.insert({
+	_id: ObjectId("5099803df3f4948bd2f98391"),
+    code : "002",
+    label : "TOTAL MARKETING FRANCE",
+    siren : "409160017",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("507f1f77bcf86cd799439011"),
+    code : "003",
+    label : "TOTAL FACILITIES MANAGEMENT SERVICES",
+    siren : "409160132",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("507f191e810c19729de860ea"),
+    code : "005",
+    label : "Total Lyon",
+    siren : "428891113",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("5197c6b453cce2ec3a743811"),
+    code : "004",
+    label : "Total Vanves",
+    siren : "529221749",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("5247019073ed0c203c79b995"),
+    code : "006",
+    label : "Total Issy",
+    siren : "531680437",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("5d2399ef96fb765873a24bae"),
+    code : "007",
+    label : "Total Groupe Nantes",
+    siren : "531680445",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("558d0b395fa02e7e218b4586"),
+    code : "008",
+    label : "Total Nanterre",
+    siren : "538612482",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("4ecc05e55dd98a436ddcc47c"),
+    code : "009",
+    label : "Total Gp Bruxelles",
+    siren : "538613860",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("4ecbe7f9e8c1c9092c000027"),
+    code : "010",
+    label : "T.G",
+    siren : "539072819",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("558d0b3c5fa02e7e218b4b0c"),
+    code : "011",
+    label : "T.G Services",
+    siren : "539082388",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("568c28fffc4be30d44d0398e"),
+    code : "012",
+    label : "Total",
+    siren : "539082735",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("58f6724e97990e9de4f17c23"),
+    code : "013",
+    label : "Siege Total Groupe",
+    siren : "539082784",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("558d0b395fa02e7e218b4593"),
+    code : "014",
+    label : "T.S Activity",
+    siren : "542034921",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("58c85d1b7932a14c7a0a320d"),
+    code : "015",
+    label : "TOTAL E&P FRANCE ",
+    siren : "542051180",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("558d0b395fa02e7e218b4587"),
+    code : "016",
+    label : "TOTAL CONSULTING RET  ",
+    siren : "552006454",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("568c28fffc4be30d44d039aa"),
+    code : "017",
+    label : "TOTAL HOLDINGS SAS",
+    siren : "552120784",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("507c35dd8fada716c89d0013"),
+    code : "018",
+    label : "TOTAL PETROCHEMICALS FRANCE",
+    siren : "692004807",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})
+db.COMPANY.insert({
+_id: ObjectId("558d0b395fa02e7e218b458c"),
+    code : "019",
+    label : "TOTAL PETROCHEMICALS FRANCE Ret",
+    siren : "956501100",
+    audit : {
+          $ref : "REFERENTIEL_AUDIT",
+          $id : ObjectId("5daf7a1c18096c110296e03c")
+          }
+})

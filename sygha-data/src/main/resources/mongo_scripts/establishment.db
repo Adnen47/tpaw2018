@@ -1,0 +1,1253 @@
+db.ESTABLISHMENT.drop();
+db.ESTABLISHMENT.insert(
+{
+  code : "E001",
+  label : "Eep - Tour Coupole",
+  nic : "00011",
+  siret : "40916001700011",
+  fraction : "11",
+  rateAT : "1.41",
+  company : DBRef("COMPANY", ObjectId("5099803df3f4948bd2f98391")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+
+db.ESTABLISHMENT.insert(
+{
+  code : "E002",
+  label : "Eep - Cstjf Pau",
+  nic : "00029",
+  siret : "40916001700029",
+  fraction : "12",
+  rateAT : "0.79",
+  company : DBRef("COMPANY", ObjectId("5099803df3f4948bd2f98391")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+
+db.ESTABLISHMENT.insert(
+{
+  code : "E003",
+  label : "Elf EP - Retraités",
+  nic : "00029",
+  siret : "40916001700029",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("5099803df3f4948bd2f98391")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+
+db.ESTABLISHMENT.insert(
+{
+  code : "E004",
+  label : "Tepf - Exploitation De Lacq",
+  nic : "00026",
+  siret : "40916013200026",
+  fraction : "12",
+  rateAT : "0.79",
+  company : DBRef("COMPANY", ObjectId("507f1f77bcf86cd799439011")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E005",
+  label : "Total EP France - Retraités",
+  nic : "00026",
+  siret : "40916013200026",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("507f1f77bcf86cd799439011")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E006",
+  label : "TOTAL PF - Siège",
+  nic : "00014",
+  siret : "42889111300014",
+  fraction : "12",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("507f191e810c19729de860ea")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E008",
+  label : "TOTAL PF - Retraités",
+  nic : "00014",
+  siret : "42889111300014",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("507f191e810c19729de860ea")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E009",
+  label : "TOTAL PF - Carling",
+  nic : "00063",
+  siret : "42889111300063",
+  fraction : "11",
+  rateAT : "5.01",
+  company : DBRef("COMPANY", ObjectId("507f191e810c19729de860ea")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E010",
+  label : "TOTAL RF - Siège social",
+  nic : "00011",
+  siret : "52922174900011",
+  fraction : "11",
+  rateAT : "0.79",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+
+db.ESTABLISHMENT.insert(
+{
+  code : "E011",
+  label : "TOTAL RF - Retraités",
+  nic : "00011",
+  siret : "52922174900011",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+
+db.ESTABLISHMENT.insert(
+{
+  code : "E090",
+  label : "TOTAL RF - Raf. Normandie",
+  nic : "00029",
+  siret : "52922174900029",
+  fraction : "11",
+  rateAT : "4.04",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+
+db.ESTABLISHMENT.insert(
+{
+  code : "E012",
+  label : "TOTAL RF - Gargenville",
+  nic : "00037",
+  siret : "52922174900037",
+  fraction : "11",
+  rateAT : "0.79",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E013",
+  label : "Total RF-Plateforme de la Mède",
+  nic : "00045",
+  siret : "52922174900045",
+  fraction : "11",
+  rateAT : "2",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E014",
+  label : "TOTAL RF - Raf. Feyzin",
+  nic : "00052",
+  siret : "52922174900052",
+  fraction : "11",
+  rateAT : "1.73",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E015",
+  label : "TOTAL RF - Etabl. des Flandres",
+  nic : "00060",
+  siret : "52922174900060",
+  fraction : "11",
+  rateAT : "0.89",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E016",
+  label : "TOTAL RF - Base - Cl Donges",
+  nic : "00078",
+  siret : "52922174900078",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E017",
+  label : "TOTAL RF - Raf. Donges",
+  nic : "00086",
+  siret : "52922174900086",
+  fraction : "11",
+  rateAT : "2.53",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E018",
+  label : "TOTAL RF - Dpt Vern/Seiche",
+  nic : "00094",
+  siret : "52922174900094",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E019",
+  label : "TOTAL RF - Dpt-Cl Nangis",
+  nic : "00102",
+  siret : "52922174900102",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E020",
+  label : "TOTAL RF - Raf. Grandpuits",
+  nic : "00110",
+  siret : "52922174900110",
+  fraction : "11",
+  rateAT : "0.97",
+  company : DBRef("COMPANY", ObjectId("5197c6b453cce2ec3a743811")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E021",
+  label : "TOTAL GLOBAL IT SERV. SIEGE",
+  nic : "00013",
+  siret : "53168043700013",
+  fraction : "12",
+  rateAT : "0.79",
+  company : DBRef("COMPANY", ObjectId("5247019073ed0c203c79b995")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E022",
+  label : "TOTAL GLOBAL IT SERV.  Retr.",
+  nic : "00013",
+  siret : "53168043700013",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("5247019073ed0c203c79b995")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E023",
+  label : "TOTAL GLOBAL IT SERV.  PAU",
+  nic : "00021",
+  siret : "53168043700021",
+  fraction : "11",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("5247019073ed0c203c79b995")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E024",
+  label : "TOTAL GLOBAL IT SERV.  NANTERRE",
+  nic : "00039",
+  siret : "53168043700039",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5247019073ed0c203c79b995")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E025",
+  label : "TOTAL GLOBAL IT SERV.  SMH",
+  nic : "00047",
+  siret : "53168043700047",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5247019073ed0c203c79b995")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E026",
+  label : "TOTAL MF - Siège   social",
+  nic : "00024",
+  siret : "53168044500024",
+  fraction : "12",
+  rateAT : "0.79",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E027",
+  label : "TOTAL MF - Retraités",
+  nic : "00024",
+  siret : "53168044500024",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E028",
+  label : "TOTAL MF - St.Avia Bordeaux",
+  nic : "00065",
+  siret : "53168044500065",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E029",
+  label : "TOTAL MF - St. Avia Montpellier",
+  nic : "00081",
+  siret : "53168044500081",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E030",
+  label : "TOTAL MF - Dpt Gennevilliers",
+  nic : "00099",
+  siret : "53168044500099",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E031",
+  label : "TOTAL MF - St.Avia Perpignan",
+  nic : "00107",
+  siret : "53168044500107",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E032",
+  label : "TOTAL MF - St.Avia Toussus",
+  nic : "00115",
+  siret : "53168044500115",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E033",
+  label : "TOTAL MF - Dpt Lespinasse",
+  nic : "00123",
+  siret : "53168044500123",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E034",
+  label : "TOTAL MF - Dpt Clermont Ferrd",
+  nic : "00131",
+  siret : "53168044500131",
+  fraction : "11",
+  rateAT : "1",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E035",
+  label : "TOTAL MF - St.Avia Toulouse",
+  nic : "00149",
+  siret : "53168044500149",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E036",
+  label : "TOTAL MF - Dpt Porte Les Valen",
+  nic : "00156",
+  siret : "53168044500156",
+  fraction : "11",
+  rateAT : "0.81",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E037",
+  label : "TOTAL MF - Dpt Valenciennes",
+  nic : "00164",
+  siret : "53168044500164",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E038",
+  label : "TOTAL MF - Michelet",
+  nic : "00172",
+  siret : "53168044500172",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E039",
+  label : "TOTAL MF - DR Lyon",
+  nic : "00180",
+  siret : "53168044500180",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E040",
+  label : "TOTAL MF - Campus Gif/Yvette",
+  nic : "00198",
+  siret : "53168044500198",
+  fraction : "11",
+  rateAT : "1.3",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E041",
+  label : "TOTAL MF - Dpt Puget S/Argens",
+  nic : "00206",
+  siret : "53168044500206",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E042",
+  label : "TOTAL MF - Dpt Dijon Longvic",
+  nic : "00214",
+  siret : "53168044500214",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E043",
+  label : "TOTAL MF - DR Nantes",
+  nic : "00222",
+  siret : "53168044500222",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("5d2399ef96fb765873a24bae")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E044",
+  label : "TOTAL CONSULTING SIEGE",
+  nic : "00017",
+  siret : "53861248200017",
+  fraction : "12",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4586")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E045",
+  label : "TOTAL CONSULTING RETRAITE",
+  nic : "00017",
+  siret : "53861248200017",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4586")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E046",
+  label : "TOTAL LEARNING SOLUTIONS SIEGE",
+  nic : "00013",
+  siret : "53861386000013",
+  fraction : "12",
+  rateAT : "1.3",
+  company : DBRef("COMPANY", ObjectId("4ecc05e55dd98a436ddcc47c")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E047",
+  label : "TOTAL LEARNING SOLUTIONS SIEGE",
+  nic : "00013",
+  siret : "53861386000013",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("4ecc05e55dd98a436ddcc47c")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E048",
+  label : "TOTAL GLOBAL PROCUREMENT SIEGE",
+  nic : "00011",
+  siret : "53907281900011",
+  fraction : "12",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("4ecbe7f9e8c1c9092c000027")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E049",
+  label : "TOTAL GLOBAL PROCUREMENT RET",
+  nic : "00011",
+  siret : "53907281900011",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("4ecbe7f9e8c1c9092c000027")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E050",
+  label : "TOTAL GLOBAL PROCUREMENT PAU",
+  nic : "00029",
+  siret : "53907281900029",
+  fraction : "11",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("4ecbe7f9e8c1c9092c000027")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E051",
+  label : "TOTAL FACILITIES MGT SERV. SIE",
+  nic : "00015",
+  siret : "53908238800015",
+  fraction : "12",
+  rateAT : "1.4",
+  company : DBRef("COMPANY", ObjectId("558d0b3c5fa02e7e218b4b0c")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E052",
+  label : "TOTAL FACILITIES MGT SERV. RET",
+  nic : "00015",
+  siret : "53908238800015",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("558d0b3c5fa02e7e218b4b0c")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E053",
+  label : "TOTAL GLOBAL FIN. SERV. SIEGE",
+  nic : "00017",
+  siret : "53908273500017",
+  fraction : "12",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("568c28fffc4be30d44d0398e")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E054",
+  label : "TOTAL GLOBAL FIN. SERV. RET",
+  nic : "00017",
+  siret : "53908273500017",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("568c28fffc4be30d44d0398e")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E055",
+  label : "TOTAL GLOBAL FIN. SERV. SMH",
+  nic : "00025",
+  siret : "53908273500025",
+  fraction : "11",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("568c28fffc4be30d44d0398e")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E056",
+  label : "TOTAL GLOBAL FIN. SERV. PAU",
+  nic : "00033",
+  siret : "53908273500033",
+  fraction : "11",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("568c28fffc4be30d44d0398e")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E057",
+  label : "TOTAL GLOBAL HR SERVICES SIEGE",
+  nic : "00015",
+  siret : "53908278400015",
+  fraction : "12",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("58f6724e97990e9de4f17c23")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E058",
+  label : "TOTAL GLOBAL HR SERVICES RET",
+  nic : "00015",
+  siret : "53908278400015",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("58f6724e97990e9de4f17c23")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E059",
+  label : "TOTAL GLOBAL HR SERVICES PAU",
+  nic : "00023",
+  siret : "53908278400023",
+  fraction : "11",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("58f6724e97990e9de4f17c23")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E060",
+  label : "TOTAL MS - Siège Social",
+  nic : "16871",
+  siret : "54203492116871",
+  fraction : "12",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4593")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E061",
+  label : "TOTAL MS - Retraités",
+  nic : "16871",
+  siret : "54203492116871",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4593")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E062",
+  label : "TOTAL MS - St Martin d'Hères",
+  nic : "19404",
+  siret : "54203492119404",
+  fraction : "11",
+  rateAT : "0.9",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4593")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E063",
+  label : "TOTAL MS - CRES Solaize",
+  nic : "19487",
+  siret : "54203492119487",
+  fraction : "11",
+  rateAT : "1.84",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4593")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E064",
+  label : "TOTAL MS - Campus Gif/Yvette",
+  nic : "19503",
+  siret : "54203492119503",
+  fraction : "11",
+  rateAT : "1.3",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4593")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E065",
+  label : "TOTAL MS - Dpt Gennevilliers",
+  nic : "19628",
+  siret : "54203492119628",
+  fraction : "11",
+  rateAT : "1",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4593")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E066",
+  label : "TOTAL MS - Oudalle",
+  nic : "20576",
+  siret : "54203492120576",
+  fraction : "11",
+  rateAT : "0.79",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4593")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E067",
+  label : "TOTAL MS - DR Nantes",
+  nic : "20667",
+  siret : "54203492120667",
+  fraction : "11",
+  rateAT : "1.2",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4593")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E068",
+  label : "TOTAL MS Spazio - Nanterre",
+  nic : "20683",
+  siret : "54203492120683",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4593")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E069",
+  label : "TOTAL MS - DR Lyon",
+  nic : "20709",
+  siret : "54203492120709",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4593")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E070",
+  label : "Total Sa - Cv Nd De Monts",
+  nic : "00058",
+  siret : "54205118000058",
+  fraction : "11",
+  rateAT : "1.22",
+  company : DBRef("COMPANY", ObjectId("58c85d1b7932a14c7a0a320d")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E071",
+  label : "Total Sa - Siège Social",
+  nic : "00066",
+  siret : "54205118000066",
+  fraction : "12",
+  rateAT : "0.8",
+  company : DBRef("COMPANY", ObjectId("58c85d1b7932a14c7a0a320d")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E072",
+  label : "Total SA - Retraités",
+  nic : "00066",
+  siret : "54205118000066",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("58c85d1b7932a14c7a0a320d")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E073",
+  label : "Total Sa - Cstjf Pau",
+  nic : "00074",
+  siret : "54205118000074",
+  fraction : "11",
+  rateAT : "1.13",
+  company : DBRef("COMPANY", ObjectId("58c85d1b7932a14c7a0a320d")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E074",
+  label : "Total Sa - Christophe Colomb",
+  nic : "00090",
+  siret : "54205118000090",
+  fraction : "11",
+  rateAT : "1",
+  company : DBRef("COMPANY", ObjectId("58c85d1b7932a14c7a0a320d")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E075",
+  label : "PERL localisé à LACQ",
+  nic : "00173",
+  siret : "54205118000173",
+  fraction : "11",
+  rateAT : "0.79",
+  company : DBRef("COMPANY", ObjectId("58c85d1b7932a14c7a0a320d")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E076",
+  label : "Total Lubrifiants - Rouen",
+  nic : "00490",
+  siret : "55200645400490",
+  fraction : "11",
+  rateAT : "3.74",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4587")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E077",
+  label : "TOTAL LUBRIFIANTS Nantes",
+  nic : "00532",
+  siret : "55200645400532",
+  fraction : "11",
+  rateAT : "1.04",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4587")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E078",
+  label : "TOTAL LUBRIFIANTS-Siège Social",
+  nic : "00565",
+  siret : "55200645400565",
+  fraction : "12",
+  rateAT : "0.85",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4587")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E079",
+  label : "Total Lubrifiants - Retraités",
+  nic : "00565",
+  siret : "55200645400565",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b4587")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E080",
+  label : "EAEPF/Elf EP - Retraités",
+  nic : "00152",
+  siret : "55212078400152",
+  fraction : "11",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("568c28fffc4be30d44d039aa")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E081",
+  label : "TOTAL RC - Siège Paris",
+  nic : "00057",
+  siret : "69200480700057",
+  fraction : "12",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("507c35dd8fada716c89d0013")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E082",
+  label : "TOTAL RC - Retraités",
+  nic : "00057",
+  siret : "69200480700057",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("507c35dd8fada716c89d0013")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E083",
+  label : "TOTAL RC - Normandie",
+  nic : "00065",
+  siret : "69200480700065",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("507c35dd8fada716c89d0013")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E084",
+  label : "TOTAL RC - Flandres",
+  nic : "00073",
+  siret : "69200480700073",
+  fraction : "11",
+  rateAT : "0.78",
+  company : DBRef("COMPANY", ObjectId("507c35dd8fada716c89d0013")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E085",
+  label : "TOTAL RC - Solaize",
+  nic : "00099",
+  siret : "69200480700099",
+  fraction : "11",
+  rateAT : "1",
+  company : DBRef("COMPANY", ObjectId("507c35dd8fada716c89d0013")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E086",
+  label : "TOTAL RC - Plateforme de La Mède",
+  nic : "00107",
+  siret : "69200480700107",
+  fraction : "11",
+  rateAT : "1.3",
+  company : DBRef("COMPANY", ObjectId("507c35dd8fada716c89d0013")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E087",
+  label : "TOTAL A.C.S. - GIVORS",
+  nic : "00013",
+  siret : "95650110000013",
+  fraction : "12",
+  rateAT : "1.52",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b458c")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E088",
+  label : "TOTAL A.C.S. - GIVORS RET",
+  nic : "00013",
+  siret : "95650110000013",
+  fraction : "22",
+  rateAT : "0",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b458c")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.ESTABLISHMENT.insert(
+{
+  code : "E089",
+  label : "TOTAL A.C.S - Port Saint-Louis",
+  nic : "00021",
+  siret : "95650110000021",
+  fraction : "22",
+  rateAT : "2.08",
+  company : DBRef("COMPANY", ObjectId("558d0b395fa02e7e218b458c")),
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})

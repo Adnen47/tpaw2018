@@ -1,0 +1,93 @@
+db.REFERENTIEL_AUDIT.drop();
+db.REFERENTIEL_AUDIT.insert({
+_id: ObjectId("5dbf1407bb1b67c584b9a38d"),
+  code : "A001",
+  update_date : ISODate("2019-11-10T05:04:06.384Z"),
+  user : {
+    $ref : "USER",
+    $id : ObjectId("60199519f1090b7a887637ac")
+  }
+})
+
+db.REFERENTIEL_AUDIT.insert({
+_id: ObjectId("5daf7a1c18096c110296e03c"),
+  code : "A002",
+  update_date : ISODate("2019-11-10T05:04:06.384Z"),
+  user : {
+    $ref : "USER",
+    $id : ObjectId("60199519f1090b7a887637ac")
+  }
+})
+
+db.REFERENTIEL_AUDIT.insert({
+_id: ObjectId("5dbf1407bb1b67c584b9a38c"),
+  code : "A003",
+  update_date : ISODate("2019-11-10T05:04:06.384Z"),
+  user : {
+    $ref : "USER",
+    $id : ObjectId("60199519f1090b7a887637ac")
+  }
+})
+
+db.REFERENTIEL_AUDIT.insert({
+  code : "A004",
+  update_date : ISODate("2019-11-10T05:04:06.384Z"),
+  user : {
+    $ref : "USER",
+    $id : ObjectId("601928e6bd24e062c9bf0111")
+  }
+})
+
+db.REFERENTIEL_AUDIT.insert({
+  code : "A005",
+  update_date : ISODate("2019-11-10T05:04:06.384Z"),
+  user : {
+    $ref : "USER",
+    $id : ObjectId("601928e6bd24e062c9bf0111")
+  }
+})
+
+db.REFERENTIEL_AUDIT.insert({
+  code : "A006",
+  update_date : ISODate("2019-11-10T05:04:06.384Z"),
+  user : {
+    $ref : "USER",
+    $id : ObjectId("601928e6bd24e062c9bf0111")
+  }
+})
+
+db.REFERENTIEL_AUDIT.insert({
+  code : "A007",
+  update_date : ISODate("2019-11-10T05:04:06.384Z"),
+  user : {
+    $ref : "USER",
+    $id : ObjectId("601928e6bd24e062c9bf0111")
+  }
+})
+
+db.REFERENTIEL_AUDIT.insert({
+  code : "A008",
+  update_date : ISODate("2019-11-10T05:04:06.384Z"),
+  user : {
+    $ref : "USER",
+    $id : ObjectId("601928e6bd24e062c9bf0111")
+  }
+})
+
+db.REFERENTIEL_AUDIT.insert({
+  code : "A009",
+  update_date : ISODate("2019-11-10T05:04:06.384Z"),
+  user : {
+    $ref : "USER",
+    $id : ObjectId("601928e6bd24e062c9bf0111")
+  }
+})
+
+db.REFERENTIEL_AUDIT.insert({
+  code : "A010",
+  update_date : ISODate("2019-11-10T05:04:06.384Z"),
+  user : {
+    $ref : "USER",
+    $id : ObjectId("601928e6bd24e062c9bf0111")
+  }
+})

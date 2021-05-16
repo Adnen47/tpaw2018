@@ -1,0 +1,1021 @@
+db.CTP_DSN.drop();
+db.CTP_DSN.insert({
+code : "U010920",
+dsn_code : "U010",
+label : "CONTR RETRAITE SUPPL RENTES 32%",
+base_type : "D",
+rate : "32.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U012920",
+dsn_code : "U012",
+label : "FORFAIT SOCIAL TAUX 20 %",
+base_type : "D",
+rate : "20.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U022920",
+dsn_code : "U022",
+label : "CONTRI. ADDIT. SOLIDARITE AUTONOMIE",
+base_type : "D",
+rate : "0.30",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U027920",
+dsn_code : "U027",
+label : "CONTRIB. ORG. SYNDIC.",
+base_type : "D",
+rate : "0.016",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U100920",
+dsn_code : "U100",
+label : "RG CAS GENERAL",
+base_type : "D",
+rate : "13.5",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U100921",
+dsn_code : "U100",
+label : "RG CAS GENERAL",
+base_type : "D",
+rate : "15.45",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U206920",
+dsn_code : "U206",
+label : "SALARIES NON RESIDENTS ACTIFS",
+base_type : "D",
+rate : "5.5",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U212920",
+dsn_code : "U212",
+label : "MALADIE PRE RETRAITE RG (PENS.SOINS)",
+base_type : "D",
+rate : "1.70",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U213920",
+dsn_code : "U213",
+label : "MALADIE PRE RETRAITE RG (PENS.SOINS) AL",
+base_type : "D",
+rate : "3.20",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U216920",
+dsn_code : "U216",
+label : "MALADIE SUR AVANTAGES DE RETRAITE RG",
+base_type : "D",
+rate : "1.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U236920",
+dsn_code : "U236",
+label : "FNAL CAS GENERAL+SECT.PUB 20SAL.OU+",
+base_type : "D",
+rate : "0.50",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U260920",
+dsn_code : "U260",
+label : "CSG CRDS REGIME GENERAL",
+base_type : "D",
+rate : "9.70",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U261920",
+dsn_code : "U261",
+label : "CRDS REV.REMPL.RETRAITE",
+base_type : "D",
+rate : "0.50",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U266920",
+dsn_code : "U266",
+label : "CSG REV.REMPL.RETRAITE",
+base_type : "D",
+rate : "3.80",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U275920",
+dsn_code : "U275",
+label : "CSG-CRDS REGIME GENERAL RETRAITES",
+base_type : "D",
+rate : "8.80",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U277920",
+dsn_code : "U277",
+label : "CSG REGIME GENERAL PRERETRAITES",
+base_type : "D",
+rate : "6.60",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U283920",
+dsn_code : "U283",
+label : "CSG/CRDS AVANTAGES DE PRERETRAITE",
+base_type : "D",
+rate : "8.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U287920",
+dsn_code : "U287",
+label : "CRDS REGIME GENERAL PRERETRAITES",
+base_type : "D",
+rate : "0.50",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U288920",
+dsn_code : "U288",
+label : "VIEILLESSE TEMPS PARTIEL OU MAYOTTE",
+base_type : "D",
+rate : "2.30",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U288921",
+dsn_code : "U288",
+label : "VIEILLESSE TEMPS PARTIEL OU MAYOTTE",
+base_type : "D",
+rate : "15.45",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U295920",
+dsn_code : "U295",
+label : "RG MAJO CDD 1-3M ACC. ACTIV U2",
+base_type : "D",
+rate : "1.50",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U306920",
+dsn_code : "U306",
+label : "NON RESIDENTS RETRAITES PRERETRAITES",
+base_type : "D",
+rate : "3.20",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U327920",
+dsn_code : "U327",
+label : "RG MAJO CDD 1M ACC. ACTIV U2",
+base_type : "D",
+rate : "3.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U336920",
+dsn_code : "U336",
+label : "PROF MEDIC ABATT.30% PLF",
+base_type : "D",
+rate : "19.05",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U336921",
+dsn_code : "U336",
+label : "PROF MEDIC ABATT.30% PLF",
+base_type : "D",
+rate : "10.82",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U343920",
+dsn_code : "U343",
+label : "RG EXO COT PAT CDI - 26 ANS U2",
+base_type : "D",
+rate : "2.40",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U381920",
+dsn_code : "U381",
+label : "RMAJO ALS MOS 1.5% - SECTEUR PRIVE AL",
+base_type : "D",
+rate : "1.50",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U400920",
+dsn_code : "U400",
+label : "CREDIT IMPOT COMPETITIVITE EMPLOI",
+base_type : "D",
+rate : "0.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U423920",
+dsn_code : "U423",
+label : "CONTRIB ASSURANCE CHOMAGE APPREN 87 U2",
+base_type : "D",
+rate : "4.05",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U430920",
+dsn_code : "U430",
+label : "COMPLEMENT COTISATION AF",
+base_type : "D",
+rate : "1.80",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U437921",
+dsn_code : "U437",
+label : "DEDUCTION AF TAUX REDUIT",
+base_type : "D",
+rate : "0",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U450920",
+dsn_code : "U450",
+label : "PENIBILITE COTISATION UNIVERSELLE",
+base_type : "D",
+rate : "0.01",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U451920",
+dsn_code : "U451",
+label : "PENIBILITE COT ADDIT MONO EXPO",
+base_type : "D",
+rate : "0.20",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U452920",
+dsn_code : "U452",
+label : "PENIBILITE COT ADDIT MULTI EXPO",
+base_type : "D",
+rate : "0.40",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U478921",
+dsn_code : "U478",
+label : "REGULARISATION FORFAIT SOCIAL",
+base_type : "D",
+rate : "100.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U479920",
+dsn_code : "U479",
+label : "FORFAIT SOCIAL 8%",
+base_type : "D",
+rate : "8.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U480920",
+dsn_code : "U480",
+label : "FORFAIT SOCIAL 16%",
+base_type : "D",
+rate : "16.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U578920",
+dsn_code : "U578",
+label : "FORFAIT SOCIAL 10%",
+base_type : "D",
+rate : "10.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U544920",
+dsn_code : "U544",
+label : "CONTR.SOUSCRIPTION ATTRIB.ACTIONS",
+base_type : "D",
+rate : "30.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U546920",
+dsn_code : "U546",
+label : "CONTR.RETR.SUPPL BENEF. RENTES 21%",
+base_type : "D",
+rate : "21.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U564920",
+dsn_code : "U564",
+label : "CONTR.RETR.SUPPL BENEF.RENTES 7%",
+base_type : "D",
+rate : "7.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U566920",
+dsn_code : "U566",
+label : "CONTR.RETR.SUPPL BENEF.RENTES 14%",
+base_type : "D",
+rate : "14.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U626920",
+dsn_code : "U626",
+label : "EXO COMPTE EPARGNE TEMPS VERS PERCO",
+base_type : "D",
+rate : "0.30",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U651920",
+dsn_code : "U651",
+label : "RR RETRAITE COMPLEMENTAIRE TX MED",
+base_type : "D",
+rate : "7.10",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U657920",
+dsn_code : "U657",
+label : "RR RETRAITE COMPLEMENTAIRE CASA",
+base_type : "D",
+rate : "0.30",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U678921",
+dsn_code : "U678",
+label : "EPARGNE SALARIALE",
+base_type : "D",
+rate : "0",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U668921",
+dsn_code : "U668",
+label : "REDUCTION GENERALE ETENDUE",
+base_type : "D",
+rate : "0",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U669921",
+dsn_code : "U669",
+label : "REGUL REDUCTION GENERALE ETENDUE",
+base_type : "D",
+rate : "100.0",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U678920",
+dsn_code : "U678",
+label : "EPARGNE SALARIALE",
+base_type : "D",
+rate : "8.20",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U704920",
+dsn_code : "U704",
+label : "CONTR RET SUPPL FINAN PRIMES",
+base_type : "D",
+rate : "24.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U706920",
+dsn_code : "U706",
+label : "CONTR RETRAITE SUPPL RENTES",
+base_type : "D",
+rate : "16.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U716920",
+dsn_code : "U716",
+label : "CONTRIBUTION PATRONALE PRERETRAITES",
+base_type : "D",
+rate : "25.20",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U717920",
+dsn_code : "U717",
+label : "CONTRIBUTION PATRONALE PRERETRAITES",
+base_type : "D",
+rate : "50.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U719920",
+dsn_code : "U719",
+label : "CONTRIB.INDEMNITE MISE A LA RETRAITE",
+base_type : "D",
+rate : "50.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U726920",
+dsn_code : "U726",
+label : "APPRENTIS SECT PRIVE INF SEUIL",
+base_type : "D",
+rate : "12.65",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U726921",
+dsn_code : "U726",
+label : "APPRENTIS SECT PRIVE INF SEUIL",
+base_type : "D",
+rate : "8.55",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U772920",
+dsn_code : "U772",
+label : "APPRENTIS SECT PRIVE INF SEUIL",
+base_type : "D",
+rate : "4.05",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U900920",
+dsn_code : "U900",
+label : "TRANSPORT",
+base_type : "D",
+rate : "0",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U901920",
+dsn_code : "U901",
+label : "TAXE SYNDICAT MIXTE TRANSPORT",
+base_type : "D",
+rate : "0",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U937920",
+dsn_code : "U937",
+label : "COTISATIONS AGS CAS GENERAL U2",
+base_type : "D",
+rate : "0.15",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U040920",
+dsn_code : "U040",
+label : "RR RETRAITE COMPLT COTIS.MALADIE",
+base_type : "D",
+rate : "1.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U442920",
+dsn_code : "U442",
+label : "RR RETRAITE COMPLT NON RESIDENT",
+base_type : "D",
+rate : "4.20",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U635920",
+dsn_code : "U635",
+label : "COMPLEMENT COTISATION MALADIE",
+base_type : "D",
+rate : "6.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U637921",
+dsn_code : "U637",
+label : "DEDUCTION MALADIE TAUX REDUIT",
+base_type : "D",
+rate : "0.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U036920",
+dsn_code : "U036",
+label : "RR RETRAITE COMPLT CSG-CRDS CASA",
+base_type : "D",
+rate : "8.80",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U037920",
+dsn_code : "U037",
+label : "RR RETRAITE COMPLEMENTAIRE TX RED",
+base_type : "D",
+rate : "4.30",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U038920",
+dsn_code : "U038",
+label : "RR RETRAITE COMPLT ALSACE MOSELLE AL AL",
+base_type : "D",
+rate : "1.50",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})
+db.CTP_DSN.insert({
+code : "U003920",
+dsn_code : "U003",
+label : "REDUCTION SALARIALE HEURES SUP",
+base_type : "D",
+rate : "0.00",
+ctp : {
+         $ref : "CTP",
+         $id : ObjectId("5daf75cc18096c110296e038")
+      },
+audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+     }
+})

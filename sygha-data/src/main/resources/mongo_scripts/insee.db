@@ -1,0 +1,457 @@
+db.INSEE.insert({
+code : "01451",
+transport_rate : "0.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "06088",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "11027",
+transport_rate : "0.6",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "11266",
+transport_rate : "1.25",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "12000",
+transport_rate : "0.6",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "13026",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+
+db.INSEE.insert({
+code : "13054",
+transport_rate : "1.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+
+db.INSEE.insert({
+code : "13078",
+transport_rate : "1.05",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "13214",
+transport_rate : "1",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "19031",
+transport_rate : "0.7",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "20004",
+transport_rate : "0.6",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "21231",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "26362",
+transport_rate : "1.3",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "29019",
+transport_rate : "1.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "31555",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "33032",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "34172",
+transport_rate : "1.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "35352",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "38185",
+transport_rate : "0.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "38421",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "42330",
+transport_rate : "1.7",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "44052",
+transport_rate : "1.5",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "44162",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "47024",
+transport_rate : "0.5",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "47031",
+transport_rate : "0.75",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "54395",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "56038",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "56121",
+transport_rate : "1.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "57123",
+transport_rate : "0.6",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "58126",
+transport_rate : "0.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "59015",
+transport_rate : "1.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "59159",
+transport_rate : "1.55",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "59288",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "59350",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "64102",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "64445",
+transport_rate : "1.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "65440",
+transport_rate : "0.6",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+
+db.INSEE.insert({
+code : "66136",
+transport_rate : "1.7",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "69276",
+transport_rate : "1.85",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+
+db.INSEE.insert({
+code : "72181",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+
+db.INSEE.insert({
+code : "73018",
+transport_rate : "1.75",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "75108",
+transport_rate : "2.95",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "76296",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "76322",
+transport_rate : "2",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "76489",
+transport_rate : "0.4",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "77010",
+transport_rate : "1.6",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "77390",
+transport_rate : "1.91",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "78092",
+transport_rate : "2.01",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "78620",
+transport_rate : "1.6",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "81004",
+transport_rate : "0.6",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "83099",
+transport_rate : "1",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "84092",
+transport_rate : "1.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "88209",
+transport_rate : "0.8",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "91272",
+transport_rate : "2.01",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "92036",
+transport_rate : "2.95",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+db.INSEE.insert({
+code : "94077",
+transport_rate : "2.54",
+audit : {
+           $ref : "REFERENTIEL_AUDIT",
+            $id : ObjectId("5dbf1407bb1b67c584b9a38d")
+            }
+})
+
+
+
+

@@ -1,0 +1,25 @@
+db.CONTRIBUTION_NOTE.insert(
+{
+  code : "CN001",
+  social_protection_code : "78877877700011",
+  start_date : "01052019",
+  end_date : "31052019",
+  total_contribution_amount : "-381.00",
+  establishment : {
+                $ref : "ESTABLISHMENT",
+                $id : ObjectId("5daf165bb38d3f2e14397dcd")
+              }
+})
+
+db.CONTRIBUTION_NOTE.insert(
+{
+  code : "CN002",
+  social_protection_code : "78877877700011",
+  start_date : "01062019",
+  end_date : "30062019",
+  total_contribution_amount : "-481.00",
+  establishment : {
+                $ref : "ESTABLISHMENT",
+                $id : ObjectId("5daf165bb38d3f2e14397dcd")
+              }
+})

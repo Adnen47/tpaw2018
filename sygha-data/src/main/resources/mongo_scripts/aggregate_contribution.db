@@ -1,0 +1,27 @@
+db.AGGREGATE_CONTRIBUTION.insert(
+{
+  code : "AC001",
+  qualifiant : "920",
+  rate : "2.88",
+  amount : "222711.00",
+  contribution_amount : "6944.00",
+  insee_commune : "75108",
+  contribution_note : {
+                $ref : "CONRIBUTION_NOTE",
+                $id : ObjectId("5dbf0d7bbb1b67c584b9a383")
+              }
+})
+
+db.AGGREGATE_CONTRIBUTION.insert(
+{
+  code : "AC001",
+  qualifiant : "920",
+  rate : "01052019",
+  amount : "495711.00",
+  contribution_amount : "7852.00",
+  insee_commune : "75108",
+  contribution_note : {
+                $ref : "CONRIBUTION_NOTE",
+                $id : ObjectId("5dbf0d7bbb1b67c584b9a383")
+              }
+})

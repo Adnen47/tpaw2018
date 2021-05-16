@@ -1,0 +1,131 @@
+db.CTP.insert({
+  code : "010",
+  value : "412",
+  ctp_date : "08012019",
+  establishment : {
+    $ref : "ESTABLISHMENT",
+    $id : ObjectId("51e0373c6f35bd826f47e9a1")
+  },
+  audit : {
+     $ref : "REFERENTIEL_AUDIT",
+     $id : ObjectId("5dbf1407bb1b67c584b9a38c")
+     }
+})
+
+db.CTP.insert({
+  code : "012",
+  value : "502",
+  ctp_date : "09012019",
+  establishment : {
+    $ref : "ESTABLISHMENT",
+    $id : ObjectId("5dbf1245bb1b67c584b9a38a")
+  },
+  audit : {
+      $ref : "REFERENTIEL_AUDIT",
+      $id : ObjectId("5dbf1407bb1b67c584b9a38c")
+  }
+})
+db.CTP.insert({
+  code : "012",
+  value : "502",
+  ctp_date : "09012019",
+  establishment : {
+    $ref : "ESTABLISHMENT",
+    $id : ObjectId("5daf165bb38d3f2e14397dcd")
+  },
+  audit : {
+      $ref : "REFERENTIEL_AUDIT",
+      $id : ObjectId("5dbf1407bb1b67c584b9a38b")
+  }
+})
+db.CTP.insert({
+  code : "012",
+  value : "502",
+  ctp_date : "09012019",
+  establishment : {
+    $ref : "ESTABLISHMENT",
+    $id : ObjectId("5dbf1407bb1b67c584b9a38c")
+  },
+  audit : {
+      $ref : "REFERENTIEL_AUDIT",
+      $id : ObjectId("5dbf1407bb1b67c584b9a38b")
+  }
+})
+db.CTP.insert({
+  code : "012",
+  value : "502",
+  ctp_date : "09012019",
+  establishment : {
+    $ref : "ESTABLISHMENT",
+    $id : ObjectId("5063114bd386d8fadbd6b004")
+  },
+  audit : {
+      $ref : "REFERENTIEL_AUDIT",
+      $id : ObjectId("5dbf1407bb1b67c584b9a38b")
+  }
+})
+db.CTP.insert({
+  code : "012",
+  value : "502",
+  ctp_date : "09012019",
+  establishment : {
+    $ref : "ESTABLISHMENT",
+    $id : ObjectId("5daf7a6f18096c110296e03d")
+  },
+  audit : {
+      $ref : "REFERENTIEL_AUDIT",
+      $id : ObjectId("5dbf1407bb1b67c584b9a38b")
+  }
+})
+db.CTP.insert({
+  code : "012",
+  value : "502",
+  ctp_date : "09012019",
+  establishment : {
+    $ref : "ESTABLISHMENT",
+    $id : ObjectId("51e0373c6f35bd826f47e9a0")
+  },
+  audit : {
+      $ref : "REFERENTIEL_AUDIT",
+      $id : ObjectId("5dbf1407bb1b67c584b9a38b")
+  }
+})
+db.CTP.insert({
+  code : "012",
+  value : "502",
+  ctp_date : "09012019",
+  establishment : {
+    $ref : "ESTABLISHMENT",
+    $id : ObjectId("5dbf14e3bb1b67c584b9a38f")
+  },
+  audit : {
+      $ref : "REFERENTIEL_AUDIT",
+      $id : ObjectId("5dbf1407bb1b67c584b9a38b")
+  }
+})
+db.CTP.insert({
+  code : "012",
+  value : "502",
+  ctp_date : "09012019",
+  establishment : {
+    $ref : "ESTABLISHMENT",
+    $id : ObjectId("5dbf14e3bb1b67c584b9a390")
+  },
+  audit : {
+      $ref : "REFERENTIEL_AUDIT",
+      $id : ObjectId("5dbf1407bb1b67c584b9a38b")
+  }
+})
+db.CTP.insert({
+  code : "012",
+  value : "502",
+  ctp_date : "09012019",
+  establishment : {
+    $ref : "ESTABLISHMENT",
+    $id : ObjectId("5daf640018096c110296e032")
+  },
+  audit : {
+      $ref : "REFERENTIEL_AUDIT",
+      $id : ObjectId("5dbf1407bb1b67c584b9a38b")
+  }
+})

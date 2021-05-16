@@ -1,0 +1,39 @@
+db.DSN_ESTABLISHMENT.insert(
+{
+  code : "DSN_E001",
+  nic : "00011",
+  siren : "456764632",
+  fraction : "11",
+  apet_code : "7010Z",
+  postcode : "92400",
+  address_1 : "0002 Place Jean Millier",
+  address_2 : "PARIS LA DEFENSE CEDEX",
+  address_3 : "La Défense 6",
+  address_4 : "COURBEVOIE",
+  staff_count : "58",
+  remuneration_type : "02",
+  establishment : {
+                $ref : "ESTABLISHMENT",
+                $id : ObjectId("5daf165bb38d3f2e14397dcd")
+              }
+})
+
+db.DSN_ESTABLISHMENT.insert(
+{
+  code : "DSN_E001",
+  nic : "00012",
+  siren : "456764632",
+  fraction : "11",
+  apet_code : "7010Z",
+  postcode : "92400",
+  address_1 : "0002 Place Jean Millier",
+  address_2 : "PARIS LA DEFENSE CEDEX",
+  address_3 : "La Défense 6",
+  address_4 : "COURBEVOIE",
+  staff_count : "48",
+  remuneration_type : "02",
+  establishment : {
+                $ref : "ESTABLISHMENT",
+                $id : ObjectId("5daf165bb38d3f2e14397dcd")
+              }
+})

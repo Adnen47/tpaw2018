@@ -1,0 +1,10 @@
+db.ROLE.drop()
+db.ROLE.insert({
+  code : "ADMIN",
+  label : "Admin"
+})
+
+db.ROLE.insert({
+  code : "GESTIONNAIRE",
+  label : "Gestionnaire"
+})

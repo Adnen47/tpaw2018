@@ -1,0 +1,99 @@
+db.GROUP.drop()
+db.GROUP.insert(
+{
+  code : "E001",
+  label : "Groupe1",
+  address : "2 rue du bac",
+  companies : [{
+                $ref : "COMPANY",
+                $id : ObjectId("5099803df3f4948bd2f98391")
+  }],
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.GROUP.insert(
+{
+  code : "E002",
+  label : "Groupe2",
+  address : "13 boulevard de l'hopital",
+    companies : [{
+                $ref : "COMPANY",
+                $id : ObjectId("5099803df3f4948bd2f98391")
+  }],
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.GROUP.insert(
+{
+  code : "E003",
+  label : "Groupe3",
+  address : "26 rue de l'étoile",
+    companies : [{
+                $ref : "COMPANY",
+                $id : ObjectId("5099803df3f4948bd2f98391")
+  }],
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.GROUP.insert(
+{
+  code : "E004",
+  label : "Groupe4",
+  address : "22 rue Anatole France",
+     companies : [{
+                $ref : "COMPANY",
+                $id : ObjectId("5099803df3f4948bd2f98391")
+  }],
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.GROUP.insert(
+{
+  code : "E005",
+  label : "Groupe5",
+  address : "66 avenue du président Roosevelt",
+        companies : [{
+                $ref : "COMPANY",
+                $id : ObjectId("5099803df3f4948bd2f98391")
+  }],
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.GROUP.insert(
+{
+  code : "E006",
+  label : "Groupe6",
+  address : "01 rue du 11 nouvembre",
+       companies : [{
+                $ref : "COMPANY",
+                $id : ObjectId("5099803df3f4948bd2f98391")
+  }],
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})
+db.GROUP.insert(
+{
+  code : "E007",
+  label : "Groupe7",
+  address : "18 rue de Tunis",
+       companies : [{
+                $ref : "COMPANY",
+                $id : ObjectId("5099803df3f4948bd2f98391")
+  }],
+  audit : {
+             $ref : "REFERENTIEL_AUDIT",
+             $id : ObjectId("5daf7a1c18096c110296e03c")
+             }
+})

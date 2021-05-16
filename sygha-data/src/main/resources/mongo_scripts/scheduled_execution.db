@@ -1,0 +1,11 @@
+db.SCHEDULED_EXECUTION.insert({
+    code : "EH001",
+    dsn_file : "D:\SYGHA\fDSN-201909-NET-24-09-2019-15-00-22.dsn",
+    perpai : "201909",
+    execution_time : "01102019 00:00:00",
+    status : "PLANNED",
+    user : {
+        $ref : "USER",
+        $id : ObjectId("5daf7a1c18096c110296e03c")
+      }
+})

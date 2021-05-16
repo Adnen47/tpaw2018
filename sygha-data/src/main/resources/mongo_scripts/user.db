@@ -1,0 +1,21 @@
+db.USER.insert({
+  email : "salim.benslimen",
+  password : "password",
+  fullname: "Salim Ben Sliman",
+  role : {
+    $ref : "ROLE",
+    $id : ObjectId("5daf7a1c18096c110296e03c")
+  }
+
+})
+
+db.USER.insert({
+  email : "hella.boulahia",
+  password : "password",
+  fullname: "Hella Boulahia",
+  role : {
+    $ref : "ROLE",
+    $id : ObjectId("5daf7a6f18096c110296e03d")
+  }
+
+})

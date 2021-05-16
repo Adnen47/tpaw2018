@@ -1,0 +1,24 @@
+db.EXTRACTION_HISTORY.drop()
+db.EXTRACTION_HISTORY.insert({
+    code : "EH001",
+    dsn_file : "D:\SYGHA\fDSN-201909-NET-24-09-2019-15-00-22.dsn",
+    perpai : ISODate("2019-01-11T05:04:06.384Z"),
+    extraction_date : ISODate("2019-10-11T05:04:06.384Z"),
+    generated_file : "D:\SYGHA\export_sygha.xlsx",
+    user : {
+            $ref : "USER",
+            $id : ObjectId("5dcc6da99fe7f32e3f466ac1")
+          }
+})
+
+db.EXTRACTION_HISTORY.insert({
+    code : "EH002",
+    dsn_file : "D:\SYGHA\fDSN-201910-NET-24-09-2019-15-00-22.dsn",
+    perpai : ISODate("2019-01-11T05:04:06.384Z"),
+    extraction_date : ISODate("2019-11-11T05:04:06.384Z"),
+    generated_file : "D:\SYGHA\export_sygha.xlsx",
+    user : {
+                $ref : "USER",
+                $id : ObjectId("5dcc6da99fe7f32e3f466ac1")
+              }
+})
