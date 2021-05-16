@@ -1,0 +1,12 @@
+com\advyteam\sygha\web\controller\AuthController.class
+com\advyteam\sygha\SyghaWebApplication.class
+com\advyteam\sygha\web\wrapper\AuthWrapper.class
+com\advyteam\sygha\ServletInitializer.class
+com\advyteam\sygha\web\config\TokenFilter.class
+com\advyteam\sygha\web\controller\BatchDSNController.class
+com\advyteam\sygha\web\dto\UserDTO.class
+com\advyteam\sygha\web\config\WebSecurityConfig.class
+com\advyteam\sygha\web\config\TokenProvider.class
+com\advyteam\sygha\web\config\TokenConfigurer.class
+com\advyteam\sygha\web\controller\ReferentielController.class
+com\advyteam\sygha\web\config\WebSocketsConfig.class
